@@ -24,6 +24,15 @@
   }
 }
 
+.icon-m {
+  max-width: 96px;
+  transition: 0.5s ease;
+
+  @include responsive(s) {
+    max-width: 96px;
+  }
+}
+
 .icon-l {
   max-width: 120px;
   transition: 0.5s ease;
