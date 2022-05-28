@@ -1,0 +1,89 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "id_user": 1,
+      "date": "14 NOV 2021",
+      "imageURL": "https://images.unsplash.com/photo-1605835963874-a7c87f56259e?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470",
+      "category": "games",
+      "tittle": "O que tem de novo no PlayStation 5? Tudo o que você precisa saber sobre o console.",
+      "resume": "Excepteur voluptate consequat anim do ullamco nostrud aliqua cillum voluptate nisi duis dolor magna id.",
+      "content": "Incididunt anim aliqua qui veniam veniam cupidatat exercitation fugiat nisi aute tempor occaecat duis. Est Lorem cillum exercitation enim dolore pariatur. Proident aliquip irure consectetur laborum enim voluptate aliquip dolor ea nulla ullamco occaecat non. Nostrud sunt nostrud consequat reprehenderit in mollit reprehenderit consequat ut est et exercitation aliqua.",
+      "duration": 10,
+      "star": 3,
+      "views": 3,
+      "status": true
+    },
+    {
+      "id": 2,
+      "id_user": 2,
+      "date": "22 FEV 2022",
+      "imageURL": "https://images.unsplash.com/photo-1513366976578-e01c21fb9c76?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687",
+      "category": "tecnologia",
+      "tittle": "Novos CPU's da Intel de 12th",
+      "resume": "Excepteur voluptate consequat anim do ullamco nostrud aliqua cillum voluptate nisi duis dolor magna id.",
+      "content": "Incididunt anim aliqua qui veniam veniam cupidatat exercitation fugiat nisi aute tempor occaecat duis. Est Lorem cillum exercitation enim dolore pariatur. Proident aliquip irure consectetur laborum enim voluptate aliquip dolor ea nulla ullamco occaecat non. Nostrud sunt nostrud consequat reprehenderit in mollit reprehenderit consequat ut est et exercitation aliqua.",
+      "duration": 7,
+      "star": 4.5,
+      "views": 3,
+      "status": true
+    },
+    {
+      "id": 3,
+      "id_user": 3,
+      "date": "20 NOV 2021",
+      "imageURL": "https://images.unsplash.com/photo-1555611637-09de5810478e?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1124",
+      "category": "fotografia",
+      "tittle": "As melhores câmeras profissionais CxB do mercado!",
+      "resume": "Excepteur voluptate consequat anim do ullamco nostrud aliqua cillum voluptate nisi duis dolor magna id.",
+      "content": "Incididunt anim aliqua qui veniam veniam cupidatat exercitation fugiat nisi aute tempor occaecat duis. Est Lorem cillum exercitation enim dolore pariatur. Proident aliquip irure consectetur laborum enim voluptate aliquip dolor ea nulla ullamco occaecat non. Nostrud sunt nostrud consequat reprehenderit in mollit reprehenderit consequat ut est et exercitation aliqua.",
+      "duration": 12,
+      "star": 5,
+      "views": 10,
+      "status": true
+    },
+    {
+      "id": 4,
+      "id_user": 1,
+      "date": "18 NOV 2021",
+      "imageURL": "https://images.unsplash.com/photo-1603481588273-2f908a9a7a1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "category": "perifericos",
+      "tittle": "Os melhores teclados mecânicos!",
+      "resume": "Excepteur voluptate consequat anim do ullamco nostrud aliqua cillum voluptate nisi duis dolor magna id.",
+      "content": "Incididunt anim aliqua qui veniam veniam cupidatat exercitation fugiat nisi aute tempor occaecat duis. Est Lorem cillum exercitation enim dolore pariatur. Proident aliquip irure consectetur laborum enim voluptate aliquip dolor ea nulla ullamco occaecat non. Nostrud sunt nostrud consequat reprehenderit in mollit reprehenderit consequat ut est et exercitation aliqua.",
+      "duration": 8,
+      "star": 5,
+      "views": 20,
+      "status": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "user": "ivanrogeriio",
+      "name": "Ivan",
+      "surname": "Rogério",
+      "token": "E10ADC3949BA59ABBE56E0557F20F883E",
+      "description": "Desenvolvedor Full-stack e UX/UI Designer.",
+      "imageProfile": "https://media-exp1.licdn.com/dms/image/C4E03AQFZDqLeM5MCxg/profile-displayphoto-shrink_200_200/0/1644552503611?e=1658966400&v=beta&t=N8pGvhUTUVwNR7Z5wmzWHLdjtvPCqHWnKbUlIKqYV7Y"
+    },
+    {
+      "id": 2,
+      "user": "lucas.simas",
+      "name": "Lucas",
+      "surname": "Simas",
+      "token": "E10ADC3949BA59ABBE56E0557F20F883E",
+      "description": "I'm IOS Developer and UI Designer based in São Paulo. More than tree years of experience.",
+      "imageProfile": "https://media-exp1.licdn.com/dms/image/C4E03AQFYw6v359Mlvg/profile-displayphoto-shrink_800_800/0/1549402947351?e=1658966400&v=beta&t=m4BKvET9OUU9DHHLsl5X6Ii438XKdMSiMZ8lYnZhvcU"
+    },
+    {
+      "id": 3,
+      "user": "diego_",
+      "name": "Diego",
+      "surname": "Paschoalini",
+      "token": "E10ADC3949BA59ABBE56E0557F20F883E",
+      "description": "Profissional com 11+ anos de experiência na área de TI, compreendendo desenvolvimento de sistemas, engenharia de software, atuando em grandes programas e projetos de alta complexidade. Vasto conhecimento no negócio de seguro automóvel.",
+      "imageProfile": "https://media-exp1.licdn.com/dms/image/C4D03AQFdVHWyFJvtmQ/profile-displayphoto-shrink_200_200/0/1645747101148?e=1658966400&v=beta&t=zmO6br_SmnMDGvFzN6-qPc7aoRDwgBaMcWhDUpCGM08"
+    }
+  ]
+}

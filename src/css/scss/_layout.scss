@@ -299,8 +299,10 @@ $gutter: 32px;
 
 .thumb {
   img {
-    transform: scale(1.05);
+    width: 376px;
+    height: 232px;
     transition: 0.5s ease;
+    object-fit: cover;
   }
 
   &:hover {
@@ -336,4 +338,38 @@ $gutter: 32px;
 
 .bg-section {
   background-color: rgba(15, 20, 31, 0.5);
+}
+
+// cards
+.card-danger {
+  background: rgba(240, 61, 61, 0.2);
+  /* auxiliary/red */
+
+  border: 1px solid #f03d3d;
+  border-radius: 4px;
+}
+
+.card-success {
+  background: rgba(11, 176, 123, 0.2);
+  /* auxiliary/green */
+
+  border: 1px solid #0bb07b;
+  border-radius: 4px;
+}
+
+.card-warning {
+  background: rgba(255, 206, 82, 0.2);
+  border: 1px solid #ffce52;
+  border-radius: 4px;
+}
+
+.card-info {
+  background: rgba(27, 105, 210, 0.2);
+  /* brand / blue */
+
+  border: 1px solid #1b69d2;
+  border-radius: 4px;
+}
+
+.card-info {
 }

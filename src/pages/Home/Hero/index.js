@@ -1,7 +1,8 @@
 import React from 'react';
 
 // My imports
-import blog from '../../../assets/svg/blog.svg';
+import Logo from '../../../assets/svg/blog.svg';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -12,13 +13,13 @@ const Hero = () => {
             blog<span>.</span>
           </h1>
           <p>Um blog para todos. Escrever. Ler. Comentar. Contribuir. Aprender. Conectar.</p>
-          <a href="" className="btn mt-2">
+          <Link to="/login" className="btn mt-2">
             Começar a escrever
-          </a>
+          </Link>
         </div>
         <div className="grid-1"></div>
         <div className="grid-6 flex-center">
-          <img src={blog} alt="blog-illustration" />
+          <img src={Logo} alt="blog-illustration" />
         </div>
         <div className="grid-1"></div>
       </div>

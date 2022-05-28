@@ -11,16 +11,20 @@ import api from '../../../services/api';
 import { useState, useEffect } from 'react';
 
 const Main = () => {
-  // váriaveis de estado
+  /**
+   * Variáveis de estado
+   */
   const [main, setMain] = useState([]);
 
-  // faça isso qnd o componente montar/carregar
+  /**
+   * Faça isso quando o componente carregar
+   */
   useEffect(() => {
-    // Requisição para posts com maiores estrelas
     api.get('/posts?star=5&_limit=2&_order=desc').then((res) => {
       setMain(res.data);
     });
   }, []);
+
   return (
     <section className="container">
       <div className="row">

@@ -9,8 +9,6 @@ const Recent = () => {
       <h3 className="ml-2 mb-3">Mais recentes</h3>
       <div className="row">
         <MostRecent />
-        <MostRecent />
-        <MostRecent />
       </div>
     </section>
   );
