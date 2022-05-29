@@ -1,8 +1,22 @@
 import logo from '../../assets/svg/blog-logo.svg';
 
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
+import { useHeader } from '../../context/headerContext';
 
 const Header = () => {
+  // Variáveis de estado
+  const { form, onChange } = useHeader();
+
+  // useNavigate para redirecionamento
+  const navigate = useNavigate();
+
+  const handleSearch = (event) => {
+    event.preventDefault();
+
+    navigate(`/search/${form.search}`);
+  };
+
   return (
     <>
       {/* HEADER */}
@@ -10,7 +24,7 @@ const Header = () => {
         <nav>
           <div className="logo">
             <Link to="/">
-              <img src={logo} alt="" />
+              <img src={logo} alt="logo" />
             </Link>
           </div>
           <ul className="menu">
@@ -29,7 +43,9 @@ const Header = () => {
         <div className="bx"></div>
         <div className="flex-start-row">
           <div className="search">
-            <input type="text" name="search" id="" placeholder="Buscar..." />
+            <form className="flex" onSubmit={handleSearch}>
+              <input type="text" name="search" id="" placeholder="Buscar..." onChange={onChange} />
+            </form>
           </div>
           <div className="cta-desktop ml-3">
             <Link to="/login" className="btn">

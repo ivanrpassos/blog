@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // API
-import api from '../../../services/api';
+import api from '../../services/api';
 
 // Hooks
 import { useState, useEffect } from 'react';
@@ -35,7 +35,7 @@ const Banner = () => {
         return (
           <section key={res.id} className="container">
             <div className="img-banner hidden">
-              <img src={res.imageURL} alt="" />
+              <img src={res.imageURL} alt="profile_image" />
             </div>
             <div className="row mt-3">
               <h6 className="color-gray text-center">{res.date}</h6>

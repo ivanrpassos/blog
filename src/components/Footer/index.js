@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="bg-section bt-black">
       <section className="container pb-0">
         <div className="row flex-center">
-          <img src={blog_logo2} className="icon-m" alt="" />
+          <img src={blog_logo2} className="icon-m" alt="logo" />
         </div>
 
         <div className="row pb-3 bb-black">
@@ -50,17 +50,15 @@ const Footer = () => {
           <div className="grid-9">
             <p>
               2021 | Todos os direitos reservados. Projeto de React.js do curso
-              <a href="https://www.frontpush.com.br/" target="_blank">
-                FrontPUSH.
-              </a>
+              <a target="_blank">FrontPUSH.</a>
             </p>
           </div>
 
           <div className="grid-3">
-            <img src={facebook} className="icon-s" alt="" />
-            <img src={instagram} className="icon-s ml-2" alt="" />
-            <img src={youtube} className="icon-s ml-2" alt="" />
-            <img src={twitter} className="icon-s ml-2" alt="" />
+            <img src={facebook} className="icon-s" />
+            <img src={instagram} className="icon-s ml-2" />
+            <img src={youtube} className="icon-s ml-2" />
+            <img src={twitter} className="icon-s ml-2" />
           </div>
         </div>
       </section>

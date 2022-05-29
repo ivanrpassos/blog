@@ -1,17 +1,13 @@
 import React from 'react';
 
 // My imports
-import Hero from './Hero';
-import Main from './Main';
-import Viewers from './Viewers';
-import Banner from './Banner';
-import Recent from './Recent';
+import Hero from '../../components/Hero';
+import Main from '../../components/Main';
+import Viewers from '../../components/Viewers';
+import Banner from '../../components/Banner';
+import Recent from '../../components/Recent';
 
 // API
-import api from '../../services/api';
-
-// Hooks
-import { useState, useEffect } from 'react';
 
 const Home = () => {
   return (
@@ -23,7 +19,7 @@ const Home = () => {
       <Main />
 
       {/* MORE VIEWERS */}
-      <Viewers />
+      <Viewers pageTittle={'Mais vistos'} />
 
       {/* BANNER */}
       <Banner />

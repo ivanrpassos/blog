@@ -8,7 +8,7 @@ const Card = ({ content }) => {
     <div className="grid-4 card hidden p-0">
       <div className="thumb hidden">
         <Link to={'/post/' + content.id} className="p-0">
-          <img src={content.imageURL} alt="" />
+          <img src={content.imageURL} alt="image_post" />
         </Link>
       </div>
       <div className="p-2">

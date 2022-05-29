@@ -6,7 +6,7 @@ const NotFound = () => {
   return (
     <section className="container">
       <div className="row flex-center">
-        <img src={logo} className="icon-l" />
+        <img src={logo} className="icon-l" alt="logo" />
       </div>
 
       <div className="row">
@@ -19,7 +19,7 @@ const NotFound = () => {
           </p>
 
           <Link to="/" className="btn w-100 mt-3">
-            Voltar p/ home
+            Voltar
           </Link>
         </div>
         <div className="grid-4 dissapear"></div>

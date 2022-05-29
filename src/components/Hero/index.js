@@ -1,7 +1,7 @@
 import React from 'react';
 
 // My imports
-import Logo from '../../../assets/svg/blog.svg';
+import Logo from '../../assets/svg/blog.svg';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
         <div className="grid-1"></div>
         <div className="grid-6 flex-center">
-          <img src={Logo} alt="blog-illustration" />
+          <img src={Logo} alt="logo" />
         </div>
         <div className="grid-1"></div>
       </div>

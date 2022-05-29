@@ -2,10 +2,11 @@ import React from 'react';
 
 // My imports
 import Publications from './publications';
-import star from '../../../assets/svg/icon-star.svg';
+import star from '../../assets/svg/icon-star.svg';
+import { Link } from 'react-router-dom';
 
 // API
-import api from '../../../services/api';
+import api from '../../services/api';
 
 // Hooks
 import { useState, useEffect } from 'react';
@@ -29,8 +30,8 @@ const Main = () => {
     <section className="container">
       <div className="row">
         <div className="grid-5 pt-5 pb-3 ">
-          <img src={star} alt="" className="icon-m" />
-          <a href="" className="link-title">
+          <img src={star} className="icon-m" alt="star_icon" />
+          <a className="link-title">
             <h2 className="mt-1">Os melhores e mais bem votados posts do mês.</h2>
           </a>
 

@@ -6,7 +6,7 @@ const Profile = () => {
           <div className="grid-6">
             <div className="flex-start-row">
               <div className="profile-big">
-                <img src="" className="profile-img" />
+                <img className="profile-img" />
               </div>
               <div className="ml-2">
                 <h3 className="color-white">Ivan Rogério</h3>

@@ -1,5 +1,12 @@
+// My imports
+import Viewers from '../../components/Viewers';
+
 const Search = () => {
-  return <h1>Search</h1>;
+  return (
+    <>
+      <Viewers pageTittle={'Pesquisa'} />
+    </>
+  );
 };
 
 export default Search;

@@ -12,13 +12,11 @@ const About = () => {
             O Blog é um projeto desenvolvido em React.js para o curso FrontPUSH. Clique abaixo para ter mais
             informações.
           </p>
-          <a href="" className="btn mt-2">
-            Saber mais
-          </a>
+          <a className="btn mt-2">Saber mais</a>
         </div>
         <div className="grid-1"></div>
         <div className="grid-6 flex-center">
-          <img src={Logo} alt="blog-illustration" />
+          <img src={Logo} />
         </div>
         <div className="grid-1"></div>
       </div>

@@ -1,16 +1,14 @@
 import React from 'react';
 
 // Components
-import Header from './components/Header';
-import Footer from './components/Footer';
 import Router from './router';
+import { HeaderProvider } from './context/headerContext';
 
 const App = () => {
   return (
-    <>
-      {/* ROUTER OUTLET */}
+    <HeaderProvider>
       <Router />
-    </>
+    </HeaderProvider>
   );
 };
 

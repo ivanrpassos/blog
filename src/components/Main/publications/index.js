@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // API
-import api from '../../../../services/api';
+import api from '../../../services/api';
 
 // Hooks
 import { useState, useEffect } from 'react';
@@ -12,7 +12,6 @@ import { useState, useEffect } from 'react';
 const Publications = ({ content }) => {
   const [user, setUser] = useState([]);
 
-  // faça isso qnd o componente carregar
   useEffect(() => {
     if (content) {
       api
@@ -39,7 +38,7 @@ const Publications = ({ content }) => {
       <div className="mt-2 flex-space">
         <div className="flex-start-row">
           <div className="profile">
-            <img src={user.imageProfile} className="profile-img" alt="image-profile" />
+            <img src={user.imageProfile} className="profile-img" alt="profile_img" />
           </div>
           <div className="ml-2">
             <h6 className="color-primary">

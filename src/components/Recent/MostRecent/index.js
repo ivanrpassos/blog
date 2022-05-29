@@ -1,10 +1,11 @@
 import React from 'react';
 
 // API
-import api from '../../../../services/api';
+import api from '../../../services/api';
 
 // Hooks
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const MostRecent = () => {
   /**
@@ -46,14 +47,14 @@ const MostRecent = () => {
               <div className="grid-nobreak-9">
                 <div>
                   <h6 className="uppercase color-primary">{res.category}</h6>
-                  <a href="" className="link-title">
+                  <Link to={'/post/' + res.id} className="link-title">
                     <h4 className="mt-1">{res.tittle}</h4>
-                  </a>
+                  </Link>
 
                   <p className="my-2">{res.resume}</p>
-                  <a href="" className="link p-0">
+                  <Link to={'/post/' + res.id} className="link p-0">
                     Ler mais
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
