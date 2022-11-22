@@ -26,4 +26,4 @@ As seguintes ferramentas e tecnologias foram usadas na construção do projeto:
 <img src="https://img.shields.io/static/v1?label=&message=React.js&color=161b22&style=for-the-badge&logo=react"/>\
 <img src="https://img.shields.io/static/v1?label=&message=JSON Server&color=161b22&style=for-the-badge&logo=npm"/>\
 <img src="https://img.shields.io/static/v1?label=&message=Axios&color=161b22&style=for-the-badge&logo=ghost"/>\
-<img src="https://img.shields.io/static/v1?label=&message=TypeScript&color=161b22&style=for-the-badge&logo=typescript"/>
+<img src="https://img.shields.io/static/v1?label=&message=JavaScript&color=161b22&style=for-the-badge&logo=javascript"/>
