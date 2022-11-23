@@ -4,7 +4,7 @@
 # 📋 Descrição
 Meu primeiro projeto usando React.js. Desde sua prototipagem e desenvolvimento, colocamos diversas 
 ideias em prática. Usamos todos os conceitos de UX/UI Design que foram apresentados durante o 
-curso e o próximo passo foi desenvolver a Landing Page.
+curso FrontPUSH e o próximo passo foi desenvolver a Landing Page.
 
 ## ⚒️ Rodando o projeto
 Antes de tudo é necessário você fazer o download do projeto em sua máquina local. Pode
